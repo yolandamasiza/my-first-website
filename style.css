@@ -25,3 +25,30 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/* ===== HEADER STYLES ===== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #1a73e8;
+}
