@@ -65,3 +65,25 @@ body {
 .contact-form button:hover {
     background-color: #1558b0;
 }
+/* ===== SERVICES PAGE BACKGROUND ===== */
+
+.services-page {
+    background-image: url("images/tree.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Content box so text is readable */
+.services-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 60px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.service-item h2 {
+    margin-top: 20px;
+    color: #2c3e50;
+}
