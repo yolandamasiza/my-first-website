@@ -125,3 +125,22 @@ body {
     border-left: 4px solid #1a73e8;
     font-style: italic;
 }
+/* ===== HOME ELABORATION ===== */
+
+.home-elaboration {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.home-elaboration h3 {
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+.home-elaboration p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
